@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nCharlotte Matthews\n",
+    "section": "",
+    "text": "About me\n\n\nCharlotte Matthews\n\n\n\n&lt;img src=\"images/headshot.jpg\" class=\"headshot\" alt=\"Headshot\"&gt;\n\n\nB.S. in Applied Mathematics (minor in Data Science) at Baylor University (May 2026, GPA 3.73). I like building dashboards and data products that translate complex data into clear decisions—especially in marketing + customer analytics and applied modeling.\n\n\n\n\n\nProjects\n\n\n\n1) Customer & Product Analytics Dashboard (Sigma + Snowflake)\nBuilt an interactive Sigma dashboard on a 2.6B-row dataset to help brands analyze buyer personas and improve channel allocation strategies. Created scalable YoY sales/customer tables in Snowflake and built visuals and filters for regional segmentation and insights.\n\nSigma Snowflake Dashboards Customer Personas\n\nProject link →\n\n\n\n\n\n\n\n2) IMDb Data Analysis in R\nAnalyzed an IMDb dataset (5,273 movies, 27 features). Built visualizations in R to explore audience ratings over time, runtime, box office performance, and rating systems; presented findings in a structured PowerPoint.\n\nR ggplot2 EDA Visualization\n\nProject link →\n\n\n\n\n\n\nResume\n\n\n\n\nEducation\nBaylor University — Waco, TX\nB.S. Applied Mathematics, Minor in Data Science (May 2026)\nGPA: 3.73 / 4.00\nRelevant coursework: Mathematical Statistics II, Regression Analysis, ODE, Linear Algebra, Probability & Statistics, Intro to Data Science, Database Design, Cloud Computing, Numerical Analysis.\n\n\nSkills\nLanguages: Python, R, SQL, Julia, LaTeX\nLibraries: Pandas, Matplotlib, NumPy, Tidyverse, ggplot2, readr, broom\nTools: RStudio, Snowflake, Sigma, PyCharm, Google Workspace, Linear\nConcepts: Data Engineering, Data Visualization, Cloud, Regression, Databases\n\n\nExperience\nSeek Insights — Data Science Intern (Jun 2025–Aug 2025)\n- Sigma dashboard on 2.6B rows supporting brand persona insights\n- Snowflake YoY tables using 5.6M customers + 935K products\n- Segmentation filters across 16,597 cities into 5 personas\n- Communicated technical results to marketing + tech stakeholders\n\n\n\n\n\nDownload\n\n\nGrab the full PDF resume here:\n\nOpen Resume PDF\n\n\n\nExtras\n\n\n\n100+ hours community service\n\n\nService trip supporting Ecuadorian community road project\n\n\nSummited Mount Shavano (14,230 ft)"
+  }
+]
