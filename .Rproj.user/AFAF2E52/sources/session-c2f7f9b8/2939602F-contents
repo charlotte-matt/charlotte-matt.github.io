@@ -1,0 +1,130 @@
+---
+title: ""
+---
+
+<div class="hero">
+
+<div class="hero-kicker">About me</div>
+
+<h1 class="hero-name">Charlotte Matthews</h1>
+
+<div class="hero-row">
+
+  <div class="hero-photo">
+    <img src="images/headshot.jpg" class="headshot" alt="Headshot">
+  </div>
+
+  <div class="hero-text">
+  
+
+B.S. in Applied Mathematics (minor in Data Science) at Baylor University (May 2026, GPA 3.73). I like building dashboards and data products that translate complex data into clear decisions—especially in marketing + customer analytics and applied modeling.
+
+  </div>
+
+</div>
+
+</div>
+
+<hr>
+
+
+
+
+<h2 id="projects">Projects</h2>
+
+
+<div class="project-row">
+<div class="project-text">
+
+### 1) Customer & Product Analytics Dashboard (Sigma + Snowflake)
+Built an interactive Sigma dashboard on a 2.6B-row dataset to help brands analyze buyer personas and improve channel allocation strategies. Created scalable YoY sales/customer tables in Snowflake and built visuals and filters for regional segmentation and insights.
+
+<div class="project-meta">
+<span class="pill">Sigma</span>
+<span class="pill">Snowflake</span>
+<span class="pill">Dashboards</span>
+<span class="pill">Customer Personas</span>
+</div>
+
+<a class="project-link" href="https://github.com/yourlink" target="_blank">Project link →</a>
+
+</div>
+
+<div class="project-media">
+<img src="images/project1.png" alt="Project screenshot">
+</div>
+</div>
+
+
+
+<div class="project-row">
+<div class="project-text">
+
+### 2) IMDb Data Analysis in R
+Analyzed an IMDb dataset (5,273 movies, 27 features). Built visualizations in R to explore audience ratings over time, runtime, box office performance, and rating systems; presented findings in a structured PowerPoint.
+
+<div class="project-meta">
+<span class="pill">R</span>
+<span class="pill">ggplot2</span>
+<span class="pill">EDA</span>
+<span class="pill">Visualization</span>
+</div>
+
+<a class="project-link" href="https://github.com/yourlink" target="_blank">Project link →</a>
+
+</div>
+
+<div class="project-media">
+<img src="images/project2.png" alt="Project screenshot">
+</div>
+</div>
+
+
+
+<h2 id="resume">Resume</h2>
+
+<div class="resume-grid">
+
+<div class="resume-left">
+
+### Education
+**Baylor University — Waco, TX**  
+B.S. Applied Mathematics, Minor in Data Science (May 2026)  
+GPA: 3.73 / 4.00
+
+Relevant coursework: Mathematical Statistics II, Regression Analysis, ODE, Linear Algebra, Probability & Statistics, Intro to Data Science, Database Design, Cloud Computing, Numerical Analysis.
+
+### Skills
+**Languages:** Python, R, SQL, Julia, LaTeX  
+**Libraries:** Pandas, Matplotlib, NumPy, Tidyverse, ggplot2, readr, broom  
+**Tools:** RStudio, Snowflake, Sigma, PyCharm, Google Workspace, Linear  
+**Concepts:** Data Engineering, Data Visualization, Cloud, Regression, Databases
+
+### Experience
+**Seek Insights — Data Science Intern (Jun 2025–Aug 2025)**  
+- Sigma dashboard on 2.6B rows supporting brand persona insights  
+- Snowflake YoY tables using 5.6M customers + 935K products  
+- Segmentation filters across 16,597 cities into 5 personas  
+- Communicated technical results to marketing + tech stakeholders
+
+</div>
+
+<div class="resume-right">
+<div class="resume-card">
+<h3>Download</h3>
+<p>Grab the full PDF resume here:</p>
+<a class="btn" href="Matthews_Resume.pdf" target="_blank">Open Resume PDF</a>
+</div>
+
+<div class="resume-card">
+<h3>Extras</h3>
+<ul>
+  <li>100+ hours community service</li>
+  <li>Service trip supporting Ecuadorian community road project</li>
+  <li>Summited Mount Shavano (14,230 ft)</li>
+</ul>
+</div>
+</div>
+
+</div>
+

@@ -1,0 +1,126 @@
+/* Keep the page clean + centered */
+body {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Center the whole page content */
+body {
+  margin: 0;
+}
+
+/* A fixed “page column” so content doesn’t spread endlessly on wide screens */
+.hero {
+  max-width: 980px;     /* <-- this is what makes it feel “set” */
+  margin: 28px auto 10px auto;
+  padding: 0 18px;
+}
+
+/* “About me” as the first title */
+.hero-kicker {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+  margin-bottom: 8px;
+}
+
+/* Big name */
+.hero-name {
+  font-size: 3rem;
+  margin: 0 0 18px 0;
+  line-height: 1.05;
+}
+
+/* Photo + text side-by-side */
+.hero-row {
+  display: grid;
+  grid-template-columns: 220px 1fr; /* fixed photo column */
+  gap: 28px;
+  align-items: start;
+}
+
+/* Photo sizing */
+.headshot {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Links */
+.hero-links {
+  margin: 0 0 12px 0;
+  font-size: 0.98rem;
+}
+
+.dot { margin: 0 8px; opacity: 0.6; }
+
+/* THIS is the key: lock the paragraph line length */
+.about-text {
+  max-width: 520px;   /* <-- set paragraph width */
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/* Projects rows: text left, image right */
+.project-row {
+  display: grid;
+  grid-template-columns: 1.25fr 0.9fr;
+  gap: 28px;
+  align-items: center;
+  padding: 18px 0 6px 0;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-media img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-meta {
+  margin-top: 10px;
+}
+
+.pill {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 6px 6px 0 0;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.10);
+  font-size: 0.85rem;
+}
+
+/* Resume layout: content + download card */
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 0.9fr;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+.resume-card {
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.10);
+  margin-bottom: 14px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.14);
+  text-decoration: none;
+  font-weight: 600;
+}
