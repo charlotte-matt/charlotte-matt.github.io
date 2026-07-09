@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMDb Ratings Analysis — Charlotte Matthews</title>
+  <meta name="description" content="An R analysis of 5,273 films exploring what drives audience ratings." />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="project-topbar">
+    <div class="container">
+      <a href="../index.html#projects">← All projects</a>
+      <a href="../index.html">Charlotte Matthews</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="project-hero">
+      <p class="eyebrow">Exploratory Data Analysis · R</p>
+      <h1>IMDb Ratings Analysis</h1>
+      <p class="lead">What actually moves an audience rating? I explored a 5,273-film IMDb dataset to find out.</p>
+    </section>
+
+    <dl class="project-meta">
+      <div><dt>Role</dt><dd>Solo analysis</dd></div>
+      <div><dt>Tools</dt><dd>R, ggplot2, Tidyverse</dd></div>
+      <div><dt>Year</dt><dd>2023</dd></div>
+      <div><dt>Scope</dt><dd>5,273 films · 27 features</dd></div>
+    </dl>
+
+    <div class="embed-slot">
+      <p>Selected visualizations from the analysis will be embedded here. Want the full write-up or code? <a href="../index.html#contact">Get in touch.</a></p>
+    </div>
+
+    <div class="project-body">
+      <section>
+        <h2>Context</h2>
+        <p>I set out to understand which factors correlate with how audiences rate films. Starting from a raw IMDb dataset of 5,273 movies and 27 features, I filtered for the variables most likely to carry signal while deliberately retaining outliers, since extreme films often reveal the clearest trends.</p>
+      </section>
+      <section>
+        <h2>Approach</h2>
+        <p>Working in R with the Tidyverse, I cleaned and reshaped the data, then built six visualizations with ggplot2 to examine distributions in audience ratings over time, runtime, box-office performance, and rating system. Each chart tested a specific hypothesis about what correlates with higher ratings.</p>
+      </section>
+      <section>
+        <h2>Outcome</h2>
+        <p>The analysis surfaced clear relationships between rating and factors like runtime and release era, and I packaged the findings into a structured presentation that walked a non-technical audience through the trends and what they implied about viewer preferences.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 Charlotte Matthews</span>
+      <a href="../index.html#top">Back to site ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
