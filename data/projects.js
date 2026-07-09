@@ -30,9 +30,9 @@ window.PROJECTS = [
   },
   {
     slug: "scrollytelling",
-    title: "Data Scrollytelling",
-    summary: "A scroll-driven narrative that walks a reader through a dataset one insight at a time.",
-    tags: ["JavaScript", "Narrative", "Data Viz"],
+    title: "Sustainability Scrollytelling",
+    summary: "A scroll-driven narrative that walks a reader through a sustainability dataset one insight at a time.",
+    tags: ["Sustainability", "Narrative", "JavaScript"],
     date: "In progress",
     status: "coming-soon",
     href: "projects/scrollytelling.html",
