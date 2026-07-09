@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Map — Charlotte Matthews</title>
-  <meta name="description" content="An interactive geographic data visualization." />
+  <title>A Day in Zürich — Charlotte Matthews</title>
+  <meta name="description" content="An interactive map guidebook to one perfect day in Zürich, organized by time of day." />
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,28 +20,33 @@
   </header>
   <main class="container">
     <section class="project-hero">
-      <p class="eyebrow">Mapping · Geospatial</p>
-      <h1>Interactive Map</h1>
-      <p class="lead">A geographic view of the data — regional patterns rendered on an interactive map.</p>
+      <p class="eyebrow">Interactive Map · Travel</p>
+      <h1>A Day in Zürich</h1>
+      <p class="lead">An interactive map guidebook to one perfect day in Zürich — dinner, dessert, and sights, pinned and organized by time of day.</p>
     </section>
     <dl class="project-meta">
       <div><dt>Role</dt><dd>Design &amp; build</dd></div>
-      <div><dt>Tools</dt><dd>Mapping tool</dd></div>
-      <div><dt>Focus</dt><dd>Geospatial patterns</dd></div>
+      <div><dt>Tools</dt><dd>JavaScript, interactive mapping</dd></div>
+      <div><dt>Focus</dt><dd>Place &amp; itinerary</dd></div>
       <div><dt>Type</dt><dd>Live embed</dd></div>
     </dl>
-    <!-- EMBED SLOT: replace this block with the live map <iframe> once the embed link is available -->
-    <div class="embed-slot">
-      <p>The live map will be embedded here.</p>
+
+    <div class="embed-frame">
+      <iframe src="https://charlotte-matt.github.io/a-day-in-zurich/" title="A Day in Zürich — interactive map" loading="lazy" allowfullscreen></iframe>
     </div>
+    <div class="embed-actions">
+      <p class="embed-note">The map is fully interactive — tap any pin for details.</p>
+      <a href="https://charlotte-matt.github.io/a-day-in-zurich/" target="_blank" rel="noopener">Open full project ↗</a>
+    </div>
+
     <div class="project-body">
       <section>
         <h2>Context</h2>
-        <p>Some questions are easier to answer on a map than in a table. This project puts the data in geographic space so regional patterns and differences become obvious at a glance.</p>
+        <p>Travel plans usually live in a dozen browser tabs. I wanted a single view that answers "what do I do, and where, and when?" — so I mapped a full day in Zürich onto an interactive map, with each stop pinned and grouped by time of day.</p>
       </section>
       <section>
         <h2>What it shows</h2>
-        <p>An interactive map you can pan and explore, surfacing how the underlying metrics vary from place to place.</p>
+        <p>Dinner and dessert spots, a morning walking tour, and practical tips are placed as map pins you can click for details. Jump to a time of day and follow the route, turning a static list of recommendations into something you can actually navigate.</p>
       </section>
     </div>
   </main>

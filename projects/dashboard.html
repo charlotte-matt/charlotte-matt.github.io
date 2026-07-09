@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Analytics Dashboard — Charlotte Matthews</title>
-  <meta name="description" content="An interactive dashboard for exploring customer and product data." />
+  <title>Seasonal Color Dashboard — Charlotte Matthews</title>
+  <meta name="description" content="An interactive dashboard testing whether the colors shoppers search for actually sell, comparing Google Trends to H&M sales." />
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,28 +20,37 @@
   </header>
   <main class="container">
     <section class="project-hero">
-      <p class="eyebrow">Dashboard · Data Visualization</p>
-      <h1>Interactive Analytics Dashboard</h1>
-      <p class="lead">An interactive view into customer and product data — buyer personas, year-over-year trends, and segment filters.</p>
+      <p class="eyebrow">Retail Analytics · Dashboard</p>
+      <h1>Seasonal Color Dashboard</h1>
+      <p class="lead">Do the colors shoppers search for actually sell? An interactive dashboard that validates online search interest against real store sales.</p>
     </section>
     <dl class="project-meta">
       <div><dt>Role</dt><dd>Design &amp; build</dd></div>
-      <div><dt>Tools</dt><dd>Dashboard tool</dd></div>
-      <div><dt>Focus</dt><dd>Segmentation &amp; trends</dd></div>
+      <div><dt>Data</dt><dd>Google Trends × H&amp;M sales, 2018–2020</dd></div>
+      <div><dt>Focus</dt><dd>Trend validation</dd></div>
       <div><dt>Type</dt><dd>Live embed</dd></div>
     </dl>
-    <!-- EMBED SLOT: replace this block with the live dashboard <iframe> once the embed link is available -->
-    <div class="embed-slot">
-      <p>The live dashboard will be embedded here.</p>
+
+    <div class="embed-frame">
+      <iframe src="https://charlotte-matt.github.io/seasonal-color-dashboard/" title="Seasonal Color Trend-Validation Dashboard" loading="lazy" allowfullscreen></iframe>
     </div>
+    <div class="embed-actions">
+      <p class="embed-note">Interactive — sort the scorecards and hover for metric definitions.</p>
+      <a href="https://charlotte-matt.github.io/seasonal-color-dashboard/" target="_blank" rel="noopener">Open full project ↗</a>
+    </div>
+
     <div class="project-body">
       <section>
         <h2>Context</h2>
-        <p>This dashboard makes a large customer-and-product dataset explorable — turning raw records into buyer personas, trends, and segment views that a non-technical audience can navigate on their own.</p>
+        <p>Retailers buy inventory months ahead, often leaning on what's trending online. But does search interest actually predict what sells? This dashboard tests that assumption by pairing Google Trends color-search data with real H&amp;M sales records from 2018–2020 across twelve garment categories.</p>
       </section>
       <section>
         <h2>What it shows</h2>
-        <p>Interactive filters let you segment by persona and behavior, compare year-over-year performance, and drill into the patterns that matter for marketing and channel decisions.</p>
+        <p>It moves from search behavior to actual sales to a forecast-accuracy scatter plot, where a reference line marks perfect prediction — points above it beat their search demand, points below overstated it. A color × category scorecard then breaks performance down product by product, ending in strategic takeaways for future buying decisions.</p>
+      </section>
+      <section>
+        <h2>Why it matters</h2>
+        <p>It's a compact example of turning two messy public datasets into a decision tool — connecting what people say they want with what they actually buy, the kind of question that drives real merchandising and marketing choices.</p>
       </section>
     </div>
   </main>
