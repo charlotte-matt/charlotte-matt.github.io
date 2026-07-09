@@ -11,6 +11,12 @@ new grad (Baylor, May 2026) applying for jobs. It showcases projects — startin
 completed IMDb analysis and growing to include an interactive dashboard, a scrollytelling
 piece, and a map — alongside a resume-style summary of experience, skills, and education.
 
+**Positioning:** Target is **analytical roles, industry-agnostic** (open to retail/fashion,
+business, and beyond). The site leads with **skills and demonstrated ability**, not personal
+interests or any single industry — copy and framing stay versatile so the same site works
+across the analytical space. The full resume content is present (this is a true "living
+resume"), with projects as the differentiator.
+
 Success criteria:
 - A recruiter can understand who Charlotte is and what she can do within ~15 seconds of landing.
 - Projects are the centerpiece and can be explored as full interactive pages.
