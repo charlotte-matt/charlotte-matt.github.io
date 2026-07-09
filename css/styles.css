@@ -115,7 +115,7 @@ section[id] { scroll-margin-top: 84px; padding-block: var(--space-section); bord
 .exp__date { color: var(--ink-soft); font-size: .88rem; white-space: nowrap; }
 .exp__bullets { display: grid; gap: .6rem; padding-left: 1.1rem; }
 .exp__bullets li { color: var(--ink-soft); }
-.exp__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+.exp__grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
 
 /* ===== Skills & Education ===== */
 .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem 2.5rem; margin-bottom: 2.5rem; }
@@ -124,7 +124,13 @@ section[id] { scroll-margin-top: 84px; padding-block: var(--space-section); bord
 .edu { border-top: 1px solid var(--rule); padding-top: 2rem; display: grid; gap: .9rem; }
 
 /* ===== Contact & footer ===== */
-.contact__actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.contact { display: grid; gap: 1.75rem; }
+.contact__list { list-style: none; display: grid; gap: .95rem; }
+.contact__list li { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+.contact__label { min-width: 5rem; font-size: .74rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 600; color: var(--ink-soft); }
+.contact__list a { color: var(--ink); text-decoration: none; font-size: 1.05rem; border-bottom: 1px solid var(--rule); transition: color .15s, border-color .15s; }
+.contact__list a:hover { color: var(--accent); border-color: var(--accent); }
+.contact .btn { justify-self: start; }
 .footer { border-top: 1px solid var(--rule); padding-block: 2rem; }
 .footer__inner { display: flex; justify-content: space-between; align-items: center; color: var(--ink-soft); font-size: .9rem; }
 .footer__inner a { text-decoration: none; color: var(--ink-soft); }
