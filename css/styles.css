@@ -81,7 +81,7 @@ section[id] { scroll-margin-top: 84px; padding-block: var(--space-section); bord
 .js .reveal.in { opacity: 1; transform: none; }
 
 /* ===== Hero ===== */
-.hero { padding-block: clamp(4rem, 11vw, 8rem) 0; }
+.hero { padding-block: clamp(4rem, 11vw, 8rem) clamp(2.5rem, 6vw, 4rem); }
 .hero__title { margin: .25rem 0 1rem; }
 .hero__sub { max-width: 34ch; margin-bottom: 2rem; }
 .hero__cta { display: flex; gap: .85rem; flex-wrap: wrap; }
