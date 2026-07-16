@@ -164,6 +164,8 @@ section[id] { scroll-margin-top: 84px; padding-block: var(--space-section); bord
 .project-body { display: grid; gap: 2rem; max-width: 68ch; }
 .project-body h2 { font-size: 1.5rem; }
 .project-body h2 + p { margin-top: .5rem; }
+/* space between a project page's last content and the footer divider */
+main.container { padding-bottom: clamp(3rem, 7vw, 5rem); }
 
 /* ===== Responsive ===== */
 @media (max-width: 720px) {

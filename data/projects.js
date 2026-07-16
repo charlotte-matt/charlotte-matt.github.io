@@ -3,7 +3,7 @@
 window.PROJECTS = [
   {
     slug: "dashboard",
-    title: "Seasonal Color Dashboard",
+    title: "Color Trend Analysis in Retail",
     summary: "Do the colors shoppers search for actually sell? An interactive dashboard validating Google Trends against real H&M sales (2018–2020) across 12 garment categories.",
     tags: ["Retail Analytics", "Dashboard", "Data Viz"],
     date: "Jun–Jul 2026",
