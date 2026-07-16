@@ -28,13 +28,4 @@ window.PROJECTS = [
     status: "live",
     href: "projects/imdb.html",
   },
-  {
-    slug: "scrollytelling",
-    title: "Sustainability Scrollytelling",
-    summary: "A scroll-driven narrative that walks a reader through a sustainability dataset one insight at a time.",
-    tags: ["Sustainability", "Narrative", "JavaScript"],
-    date: "In progress",
-    status: "coming-soon",
-    href: "projects/scrollytelling.html",
-  },
 ];
